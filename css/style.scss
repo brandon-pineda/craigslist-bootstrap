@@ -1,0 +1,36 @@
+@import "navbar";
+@import "header";
+@import "about";
+@import "services";
+@import "portfolio";
+@import "aside";
+@import "contact";
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}s
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  transition: all 0.35s;
+}
